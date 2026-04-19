@@ -1,4 +1,5 @@
 package com.pluralsight;
+
 import java.util.Scanner;
 
 public class FinancialCalculatorsApp {
@@ -106,6 +107,7 @@ public class FinancialCalculatorsApp {
         System.out.println("The monthly payment: $" + String.format("%.2f", monthlyPayment));
         System.out.printf("The total interest is: $%.2f\n\n", totalInterestRate);
     }
+
     public static void futureValueCalculatorMenu(Scanner input) {
         System.out.println("\n========== Future Value Calculator ==========\n");
 
